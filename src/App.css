@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url('./fonts/Kaushan_Script/KaushanScript-Regular.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Caveat';
+    src: url('./fonts/Caveat-VariableFont_wght.ttf');
+    font-weight: 400;
+}
+main{
+    max-height: 90vh;
+    overflow: auto;
+}
+header{
+    position: sticky;
+    top: 0px;
+    padding: 10px 40px;
+    box-shadow: 0px 5px 15px rgb(219, 218, 218); 
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+header div .a1{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'KaushanScript-Regular', cursive;
+    font-weight: 500;
+    color: #20303C;
+    
+}
+header div .a2{
+    margin-left: 35px;
+}
+header div .a3{
+    padding: 12px 30px;
+    margin-left: 50px;
+    border-radius: 55px;
+    background-color: #116DFF;
+    text-decoration: none;
+    color: white;
+}
+header div .spn{
+    display: flex;
+    margin-left: 45px;
+}
+header div .spn button{
+    border: none;
+    background-color: white;
+}
+header div .spn button img{
+    width: 30px;
+    height: 30px;
+}
+header div .spn hr{
+    height: 28px;
+    border: 1px solid rgb(176, 172, 172);
+    margin-left: 20px;
+    margin-right: 12px;
+}
+section .container{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+section .container h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+section .container div{
+    display: flex;
+    justify-content: center;
+}
+section .container div button{
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+section .container1 {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+section .container1 .img1{
+    width: 302px;
+    height: 302px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+section .container1 .imgvelik{
+    width: 302px;
+    height: 453px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-1 a {
+    margin-left: 5px;
+}
+
+footer .footer-2 a .img-1{
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+}
+footer .footer-2 a .img-2{
+    width: 31px;
+    height: 31px;
+    /* margin-left: 5px; */
+}
+footer .footer-2 a .img-3{
+    width: 24px;
+    height: 24px;
+    border-radius: 7px;
+    margin-right: 3px;
+}
+footer .footer-2 a .img-4{
+    width: 23px;
+    height: 23px;
+    border-radius: 5px;
+}
